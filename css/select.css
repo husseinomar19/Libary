@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #1e2028;
+}
+.contantmainselsct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contantselect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 400px;
+   height: 400px;
+   margin-top: 10rem;
+   background-color: #fff;
+   padding: 2rem;
+   border-radius: 2rem;
+   text-align: center;
+}
+.contantselect:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
+}
+#cars{
+    width: 170px;
+    border-radius: 2rem;
+    background-color: #3d3d49;
+    color: #fff;
+    padding: 0.5rem; 
+    margin-bottom: 20px;
+}
